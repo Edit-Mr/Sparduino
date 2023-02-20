@@ -36,4 +36,4 @@
   * 到 [Spotify 開發人員儀表板](https://developer.spotify.com/dashboard/)並使用您的 Spotify 帳戶登錄
   * 單擊“創建應用程序”按鈕並填寫表格以創建新應用程序。 為您的應用程序命名和描述，並指定任何相關的應用程序設置。
   * 創建應用程序後，您應該會看到一個包含應用程序名稱和詳細信息的頁面。 向下滾動到“Client ID”和“Client Secret”部分並記下這些值。
-2. 在終端機cd到下載路徑並執行檔案`python app.py`
+3. 在終端機cd到下載路徑並執行檔案`python app.py`
