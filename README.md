@@ -15,7 +15,7 @@
 
 ## 使用
 
-至release下載`Sparduino.exe`並開啟  
+至[release](https://github.com/Edit-Mr/Sparduino/releases)下載`Sparduino.exe`並開啟  
 以下為範例介面:
 ```
 ╦ 歡迎使用 Sparduino
