@@ -15,8 +15,8 @@
 
 ## 使用
 
-至release下載並開啟軟體，或下載Python檔執行。
-
+至release下載`Sparduino.exe`並開啟  
+以下為範例介面:
 ```
 ╦ 歡迎使用 Sparduino
 ║
@@ -28,3 +28,12 @@
 ╔ PLEEG
 ╚ Alive
 ```
+
+### 自行配置
+
+1. 下載`app.py`並安裝依賴套件
+2. 在`app.py`20行加入client_id和client_secret
+  * 到 [Spotify 開發人員儀表板](https://developer.spotify.com/dashboard/)並使用您的 Spotify 帳戶登錄
+  * 單擊“創建應用程序”按鈕並填寫表格以創建新應用程序。 為您的應用程序命名和描述，並指定任何相關的應用程序設置。
+  * 創建應用程序後，您應該會看到一個包含應用程序名稱和詳細信息的頁面。 向下滾動到“Client ID”和“Client Secret”部分並記下這些值。
+2. 在終端機cd到下載路徑並執行檔案`python app.py`
