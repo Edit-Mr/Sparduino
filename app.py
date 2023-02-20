@@ -17,8 +17,8 @@ ser = serial.Serial('COM' + chosen_port, 9600)
 
 # Set up the Spotify API
 scope = "user-read-playback-state"
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='7d2c1b2b90414adc9deba391b33cf378',
-                     client_secret='a219e9558e5c4b80a4bd00c8819841f7', redirect_uri='http://localhost:8888/callback', scope=scope))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='',
+                     client_secret='', redirect_uri='http://localhost:8888/callback', scope=scope))
 
 while True:
     # Get the artist and title of the currently playing song on Spotify
